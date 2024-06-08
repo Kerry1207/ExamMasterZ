@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@solana/web3.js": "^1.91.7",
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "keygen": "npx ts-node keypair.ts",
+    "airdrop": "npx ts-node airdrop.ts",
+    "spl_create_token": "npx ts-node spl_create_token",
+    "spl_mint": "npx ts-node spl_mint.ts",
+    "spl_transfer": "npx ts-node spl_transfer.ts",
+    "spl_transfer_account": "npx ts-node spl_transfer_account.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana/spl-token": "^0.4.6",
+    "ts-node": "^10.9.2"
+  }
+}
